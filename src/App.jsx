@@ -11,7 +11,7 @@ export const App = () => {
 
     return (
       movie.title.toLowerCase().includes(normalizedQuery) ||
-      movie.description.toLocaleLowerCase().includes(normalizedQuery)
+      movie.description.toLowerCase().includes(normalizedQuery)
     );
   });
 
